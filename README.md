@@ -1,6 +1,11 @@
 # ts-2d-vue-playground
 
-This template should help get you started developing with Vue 3 in Vite.
+here we are testing 
+
++ [bun](https://bun.com/docs/quickstart) as package manager 
++ the brand new Vite 8 (beta)
++ Vue 3.6 (beta)
++ TypeScript
 
 ## Recommended IDE Setup
 

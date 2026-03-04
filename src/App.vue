@@ -1,5 +1,13 @@
 <script setup lang="ts">
 import World from './components/World.vue'
+import {APP, BUILD_DATE, getLog, VERSION} from "@/config.ts";
+import {onMounted} from "vue";
+
+const log = getLog(APP, 4, 2)
+onMounted(() => {
+   log.t(`Main App.vue ${APP}-${VERSION}, du ${BUILD_DATE}`)
+})
+
 </script>
 
 <template>
